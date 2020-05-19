@@ -57,6 +57,7 @@ munder, mover, munderover {
 munder > *:nth-child(2), munderover > *:nth-child(2) {
     font-size: 0.8em;
     order: +1;
+    text-align: right;
 }
 mover > *:nth-child(2), munderover > *:nth-child(3) {
     font-size: 0.8em;
